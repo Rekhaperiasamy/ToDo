@@ -1,13 +1,31 @@
 .App-header {
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:black;
 }
-.App-header p{
-  color: #282c34;
+.form-group label{
+  display: block;
   text-align: center;
+}
+.form-control{
+  width:60%;
+  margin-left:16%;
+}
+.todoitem{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+.list-group{
+  width: 60%;
+  margin-left: 16%;
+  padding: 3%;
+}
+.btn-info{
+  width: 60%;
+  margin-left: 16%;
+  margin-top:1%;
 }
